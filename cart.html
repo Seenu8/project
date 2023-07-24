@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>E-commerce Project</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <script src="https://kit.fontawesome.com/bcfce83339.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="democss.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="Img\logo.png" class="logo"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="demo.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="cart"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fas fa-times"></i></a>  
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>  
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+        <section id="cart-header">
+            <h1>Cart</h1>   
+            <p>Add coupon and save upto 70%</p>
+        </section>
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></i></td>
+                        <td><img src="Img/products/f1.jpg" alt=""></td>
+                        <td>Adidass casual shirt</td>
+                        <td>$5</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></i></td>
+                        <td><img src="Img/products/f2.jpg" alt=""></td>
+                        <td>Adidass casual shirt</td>
+                        <td>$5</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></i></td>
+                        <td><img src="Img/products/f3.jpg" alt=""></td>
+                        <td>Adidass casual shirt</td>
+                        <td>$5</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="coupon" class="section-p1">
+            <div id="coupon-button">
+                <h4>Apply Coupon</h4>
+                <div>
+                    <input type="text" placeholder="Enter your code">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+            <div id="cart-total">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>cart total</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                       <td><strong>Total</strong></td>
+                       <td><strong>$15</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+        <section id="signup" class="section-p1 section-m1">
+            <div class="signuptext">
+                <h3>Sign up for Login</h3>
+                <p>Get e-mail about our latest <span> deals and offer's</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+        <footer class="section-p1">
+            <div id="col">
+                <h3>Contact</h3>
+                <p><strong>Address:</strong>46A Bangaru Street,Kanchipuram</p>
+                <p><strong>Phone:</strong>+91 7871676545</p>
+                <p><strong>Open:</strong>09:00-18:00 Mon-Fri</p>
+                <div class="follow">
+                    <h3>Follow Us</h3>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3>About</h3>
+                <a href="#">About us</a>
+                <a href="#">Delivery information</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & condition</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="col">
+                <h3>My Account</h3>
+                <a href="#">Sign in</a>
+                <a href="#">View cart</a>
+                <a href="#">My watchlist</a>
+                <a href="#">Track my order</a>
+                <a href="#">help</a>
+            </div>
+            <div class="col install">
+                <h3>Install App</h3>
+                <p>From App Store or Google play</p>
+                <div class="row">
+                    <img src="Img\pay\app.jpg" alt="">
+                    <img src="Img\pay\play.jpg" alt="">
+                </div>
+                <p>Secured payment gate</p>
+                <img src="Img\pay\pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>© 2023,Cara E-commerce website</p>
+            </div>
+        </footer>
+        <script src="demojs.js"></script>
+    </body>
+</html>
